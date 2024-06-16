@@ -1,0 +1,18 @@
+name: BanBlock
+version: '${project.version}'
+main: club.asyncraft.banblock.BanBlock
+api-version: '1.20'
+commands:
+  banblock:
+    description: "main command"
+    usage: "/bb 查看帮助"
+    aliases:
+      - bb
+permissions:
+  banblock.reload:
+    description: "重载配置文件"
+    default: op
+  banblock.place:
+    description: "是否拥有防止某方块的权限"
+    default: op
+

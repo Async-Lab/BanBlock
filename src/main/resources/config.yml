@@ -1,0 +1,6 @@
+# 被禁止的方块列表，名称与Material中枚举的物品名称相同，详情查看
+# https://jd.papermc.io/paper/1.20.6/org/bukkit/Material.html
+# 放置列表中的物品需要banblock.place.{物品名}权限或op权限
+ban_list:
+  - REDSTONE_BLOCK
+message: "&c你不能放置该方块"
